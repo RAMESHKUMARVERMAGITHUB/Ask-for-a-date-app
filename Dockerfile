@@ -12,8 +12,8 @@ COPY style.css .
 COPY yes.html .
 COPY nextpage.html . 
 
-# RUN chown -R nginx:nginx /usr/share/nginx/html && \
-#     chmod -R 755 /usr/share/nginx/html
+RUN chown -R nginx:nginx /usr/share/nginx/html && \
+    chmod -R 755 /usr/share/nginx/html
 
 # Expose the default Nginx port
 EXPOSE 80

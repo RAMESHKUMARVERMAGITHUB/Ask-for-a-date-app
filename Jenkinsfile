@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'master', url: 'https://github.com/RAMESHKUMARVERMAGITHUB/Ask-for-a-date-app.git'
+                git branch: 'main', url: 'https://github.com/RAMESHKUMARVERMAGITHUB/Ask-for-a-date-app.git'
             }
         }
         
